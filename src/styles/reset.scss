@@ -1,4 +1,4 @@
-/* Reset and base styles  */
+/* Reset base styles  */
 *,
 *::before,
 *::after {
@@ -12,17 +12,11 @@ body{
 }
 
 /* Links */
-
-a {
-	color: inherit;
-}
-
 a, a:link, a:visited  {
   text-decoration: none;
 }
 
 /* Common */
-
 aside, nav, footer, header, section, main {
 	display: block;
 }
@@ -40,7 +34,6 @@ address {
 }
 
 /* Form */
-
 input, textarea, button, select {
 	font-family: inherit;
 	font-size: inherit;
@@ -56,7 +49,6 @@ input::-ms-clear {
 button, input[type="submit"] {
   display: inline-block;
   box-shadow: none;
-  background-color: transparent;
   background: none;
   cursor: pointer;
 }
